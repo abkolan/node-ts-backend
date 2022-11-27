@@ -14,7 +14,14 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	 "postCreateCommand": "yarn install"
+	"postCreateCommand": "yarn install",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot"
+			]
+		}
+	}
 
 	// Configure tool-specific properties.
 	// "customizations": {},
